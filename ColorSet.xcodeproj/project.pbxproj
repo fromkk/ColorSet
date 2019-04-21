@@ -1,0 +1,1007 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DD5C252ABD2E355897452D0 /* Pods_ColorSet_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED459CC395114FC4D1E9EAA /* Pods_ColorSet_iOS.framework */; };
+		531B1AF6329C5579DDAAA264 /* Pods_ColorSetSample_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FED6EFAB41F0FCD4828FD9C /* Pods_ColorSetSample_iOS.framework */; };
+		AD4E6274226BED9600656B87 /* ColorSet_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4E6272226BED9600656B87 /* ColorSet_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4E627A226BEDCE00656B87 /* ColorObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4E6279226BEDCE00656B87 /* ColorObservable.swift */; };
+		AD4E6282226BF55A00656B87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4E6281226BF55A00656B87 /* AppDelegate.swift */; };
+		AD4E6284226BF55A00656B87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4E6283226BF55A00656B87 /* ViewController.swift */; };
+		AD4E6287226BF55A00656B87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4E6285226BF55A00656B87 /* Main.storyboard */; };
+		AD4E6289226BF55A00656B87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4E6288226BF55A00656B87 /* Assets.xcassets */; };
+		AD4E628C226BF55A00656B87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4E628A226BF55A00656B87 /* LaunchScreen.storyboard */; };
+		AD4E6291226BF59300656B87 /* ColorSet_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4E626F226BED9600656B87 /* ColorSet_iOS.framework */; };
+		AD4E6292226BF59300656B87 /* ColorSet_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AD4E626F226BED9600656B87 /* ColorSet_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AD4E6297226BF63100656B87 /* ColorObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4E6296226BF63100656B87 /* ColorObservation.swift */; };
+		AD4E6299226BF65A00656B87 /* ColorObservationBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4E6298226BF65A00656B87 /* ColorObservationBag.swift */; };
+		AD4E62A1226BFD3F00656B87 /* ColorObservableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4E62A0226BFD3F00656B87 /* ColorObservableTests.swift */; };
+		AD4E62A3226BFD3F00656B87 /* ColorSet_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4E626F226BED9600656B87 /* ColorSet_iOS.framework */; };
+		AD4E62AA226BFDE700656B87 /* ColorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4E62A9226BFDE700656B87 /* ColorType.swift */; };
+		AD4E62AD226C059400656B87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4E62AC226C059400656B87 /* UIKit.framework */; };
+		AD4E62AF226C082500656B87 /* ColorObservationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4E62AE226C082500656B87 /* ColorObservationTests.swift */; };
+		AD4E62B1226C09EF00656B87 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4E62B0226C09EF00656B87 /* CoreGraphics.framework */; };
+		AD4E62B3226C0A2F00656B87 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4E62B2226C0A2F00656B87 /* CoreImage.framework */; };
+		AD4E62B5226C0E3700656B87 /* ColorObservationBagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4E62B4226C0E3700656B87 /* ColorObservationBagTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD4E6293226BF59300656B87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD4E6264226BED6100656B87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD4E626E226BED9600656B87;
+			remoteInfo = "ColorSet-iOS";
+		};
+		AD4E62A4226BFD3F00656B87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD4E6264226BED6100656B87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD4E626E226BED9600656B87;
+			remoteInfo = "ColorSet-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD4E6295226BF59300656B87 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AD4E6292226BF59300656B87 /* ColorSet_iOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1620A8A9FD4690E68216FAEB /* Pods-ColorSet-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorSet-iOS.release.xcconfig"; path = "Target Support Files/Pods-ColorSet-iOS/Pods-ColorSet-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		4FED6EFAB41F0FCD4828FD9C /* Pods_ColorSetSample_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorSetSample_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED459CC395114FC4D1E9EAA /* Pods_ColorSet_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorSet_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D329C54639E6D7B078B17CB /* Pods-ColorSetSample-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorSetSample-iOS.release.xcconfig"; path = "Target Support Files/Pods-ColorSetSample-iOS/Pods-ColorSetSample-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		A851565108005807B285E89C /* Pods-ColorSetSample-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorSetSample-iOS.debug.xcconfig"; path = "Target Support Files/Pods-ColorSetSample-iOS/Pods-ColorSetSample-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		AD4E626F226BED9600656B87 /* ColorSet_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorSet_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4E6272226BED9600656B87 /* ColorSet_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorSet_iOS.h; sourceTree = "<group>"; };
+		AD4E6273226BED9600656B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD4E6279226BEDCE00656B87 /* ColorObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorObservable.swift; sourceTree = "<group>"; };
+		AD4E627F226BF55900656B87 /* ColorSetSample-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ColorSetSample-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4E6281226BF55A00656B87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD4E6283226BF55A00656B87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD4E6286226BF55A00656B87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD4E6288226BF55A00656B87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD4E628B226BF55A00656B87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD4E628D226BF55A00656B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD4E6296226BF63100656B87 /* ColorObservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorObservation.swift; sourceTree = "<group>"; };
+		AD4E6298226BF65A00656B87 /* ColorObservationBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorObservationBag.swift; sourceTree = "<group>"; };
+		AD4E629E226BFD3F00656B87 /* ColorSet_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorSet_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4E62A0226BFD3F00656B87 /* ColorObservableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorObservableTests.swift; sourceTree = "<group>"; };
+		AD4E62A2226BFD3F00656B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD4E62A9226BFDE700656B87 /* ColorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorType.swift; sourceTree = "<group>"; };
+		AD4E62AC226C059400656B87 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AD4E62AE226C082500656B87 /* ColorObservationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorObservationTests.swift; sourceTree = "<group>"; };
+		AD4E62B0226C09EF00656B87 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		AD4E62B2226C0A2F00656B87 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		AD4E62B4226C0E3700656B87 /* ColorObservationBagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorObservationBagTests.swift; sourceTree = "<group>"; };
+		AD4E62B6226C102600656B87 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B712EC568656CC8B3007EE41 /* Pods-ColorSet-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorSet-iOS.debug.xcconfig"; path = "Target Support Files/Pods-ColorSet-iOS/Pods-ColorSet-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD4E626C226BED9600656B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4E62B3226C0A2F00656B87 /* CoreImage.framework in Frameworks */,
+				AD4E62B1226C09EF00656B87 /* CoreGraphics.framework in Frameworks */,
+				AD4E62AD226C059400656B87 /* UIKit.framework in Frameworks */,
+				1DD5C252ABD2E355897452D0 /* Pods_ColorSet_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4E627C226BF55900656B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4E6291226BF59300656B87 /* ColorSet_iOS.framework in Frameworks */,
+				531B1AF6329C5579DDAAA264 /* Pods_ColorSetSample_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4E629B226BFD3F00656B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4E62A3226BFD3F00656B87 /* ColorSet_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76978CC3B2DBF47797E7D4CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B712EC568656CC8B3007EE41 /* Pods-ColorSet-iOS.debug.xcconfig */,
+				1620A8A9FD4690E68216FAEB /* Pods-ColorSet-iOS.release.xcconfig */,
+				A851565108005807B285E89C /* Pods-ColorSetSample-iOS.debug.xcconfig */,
+				7D329C54639E6D7B078B17CB /* Pods-ColorSetSample-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AD4E6263226BED6100656B87 = {
+			isa = PBXGroup;
+			children = (
+				AD4E62B6226C102600656B87 /* README.md */,
+				AD4E6278226BEDA600656B87 /* Sources */,
+				AD4E6271226BED9600656B87 /* ColorSet-iOS */,
+				AD4E629F226BFD3F00656B87 /* ColorSet_iOSTests */,
+				AD4E6280226BF55A00656B87 /* ColorSetSample-iOS */,
+				AD4E6270226BED9600656B87 /* Products */,
+				AD4E62AB226C059400656B87 /* Frameworks */,
+				76978CC3B2DBF47797E7D4CA /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		AD4E6270226BED9600656B87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD4E626F226BED9600656B87 /* ColorSet_iOS.framework */,
+				AD4E627F226BF55900656B87 /* ColorSetSample-iOS.app */,
+				AD4E629E226BFD3F00656B87 /* ColorSet_iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD4E6271226BED9600656B87 /* ColorSet-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD4E6272226BED9600656B87 /* ColorSet_iOS.h */,
+				AD4E6273226BED9600656B87 /* Info.plist */,
+			);
+			path = "ColorSet-iOS";
+			sourceTree = "<group>";
+		};
+		AD4E6278226BEDA600656B87 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AD4E62A9226BFDE700656B87 /* ColorType.swift */,
+				AD4E6279226BEDCE00656B87 /* ColorObservable.swift */,
+				AD4E6296226BF63100656B87 /* ColorObservation.swift */,
+				AD4E6298226BF65A00656B87 /* ColorObservationBag.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		AD4E6280226BF55A00656B87 /* ColorSetSample-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD4E6281226BF55A00656B87 /* AppDelegate.swift */,
+				AD4E6283226BF55A00656B87 /* ViewController.swift */,
+				AD4E6285226BF55A00656B87 /* Main.storyboard */,
+				AD4E6288226BF55A00656B87 /* Assets.xcassets */,
+				AD4E628A226BF55A00656B87 /* LaunchScreen.storyboard */,
+				AD4E628D226BF55A00656B87 /* Info.plist */,
+			);
+			path = "ColorSetSample-iOS";
+			sourceTree = "<group>";
+		};
+		AD4E629F226BFD3F00656B87 /* ColorSet_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD4E62A0226BFD3F00656B87 /* ColorObservableTests.swift */,
+				AD4E62AE226C082500656B87 /* ColorObservationTests.swift */,
+				AD4E62B4226C0E3700656B87 /* ColorObservationBagTests.swift */,
+				AD4E62A2226BFD3F00656B87 /* Info.plist */,
+			);
+			path = ColorSet_iOSTests;
+			sourceTree = "<group>";
+		};
+		AD4E62AB226C059400656B87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD4E62B2226C0A2F00656B87 /* CoreImage.framework */,
+				AD4E62B0226C09EF00656B87 /* CoreGraphics.framework */,
+				AD4E62AC226C059400656B87 /* UIKit.framework */,
+				5ED459CC395114FC4D1E9EAA /* Pods_ColorSet_iOS.framework */,
+				4FED6EFAB41F0FCD4828FD9C /* Pods_ColorSetSample_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AD4E626A226BED9600656B87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4E6274226BED9600656B87 /* ColorSet_iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AD4E626E226BED9600656B87 /* ColorSet-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4E6275226BED9600656B87 /* Build configuration list for PBXNativeTarget "ColorSet-iOS" */;
+			buildPhases = (
+				20D0491D976BD7EC3622C925 /* [CP] Check Pods Manifest.lock */,
+				AD4E626A226BED9600656B87 /* Headers */,
+				AD4E626B226BED9600656B87 /* Sources */,
+				AD4E626C226BED9600656B87 /* Frameworks */,
+				AD4E626D226BED9600656B87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ColorSet-iOS";
+			productName = "ColorSet-iOS";
+			productReference = AD4E626F226BED9600656B87 /* ColorSet_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AD4E627E226BF55900656B87 /* ColorSetSample-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4E628E226BF55A00656B87 /* Build configuration list for PBXNativeTarget "ColorSetSample-iOS" */;
+			buildPhases = (
+				6D52F3311F9A417DEB4D392F /* [CP] Check Pods Manifest.lock */,
+				AD4E62B7226C542B00656B87 /* SwiftLint */,
+				AD4E62B8226C557900656B87 /* SwiftFormat */,
+				AD4E627B226BF55900656B87 /* Sources */,
+				AD4E627C226BF55900656B87 /* Frameworks */,
+				AD4E627D226BF55900656B87 /* Resources */,
+				AD4E6295226BF59300656B87 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD4E6294226BF59300656B87 /* PBXTargetDependency */,
+			);
+			name = "ColorSetSample-iOS";
+			productName = "ColorSetSample-iOS";
+			productReference = AD4E627F226BF55900656B87 /* ColorSetSample-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD4E629D226BFD3F00656B87 /* ColorSet_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4E62A6226BFD3F00656B87 /* Build configuration list for PBXNativeTarget "ColorSet_iOSTests" */;
+			buildPhases = (
+				AD4E629A226BFD3F00656B87 /* Sources */,
+				AD4E629B226BFD3F00656B87 /* Frameworks */,
+				AD4E629C226BFD3F00656B87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD4E62A5226BFD3F00656B87 /* PBXTargetDependency */,
+			);
+			name = ColorSet_iOSTests;
+			productName = ColorSet_iOSTests;
+			productReference = AD4E629E226BFD3F00656B87 /* ColorSet_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD4E6264226BED6100656B87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					AD4E626E226BED9600656B87 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+					AD4E627E226BF55900656B87 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					AD4E629D226BFD3F00656B87 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AD4E6267226BED6100656B87 /* Build configuration list for PBXProject "ColorSet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD4E6263226BED6100656B87;
+			productRefGroup = AD4E6270226BED9600656B87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD4E626E226BED9600656B87 /* ColorSet-iOS */,
+				AD4E627E226BF55900656B87 /* ColorSetSample-iOS */,
+				AD4E629D226BFD3F00656B87 /* ColorSet_iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD4E626D226BED9600656B87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4E627D226BF55900656B87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4E628C226BF55A00656B87 /* LaunchScreen.storyboard in Resources */,
+				AD4E6289226BF55A00656B87 /* Assets.xcassets in Resources */,
+				AD4E6287226BF55A00656B87 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4E629C226BFD3F00656B87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20D0491D976BD7EC3622C925 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ColorSet-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D52F3311F9A417DEB4D392F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ColorSetSample-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD4E62B7226C542B00656B87 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\" \"autocorrect\"\n";
+		};
+		AD4E62B8226C557900656B87 /* SwiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftFormat;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\" \"${SRCROOT}/Sources\"\n\"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\" \"${SRCROOT}/ColorSetSample-iOS\"\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD4E626B226BED9600656B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4E627A226BEDCE00656B87 /* ColorObservable.swift in Sources */,
+				AD4E6297226BF63100656B87 /* ColorObservation.swift in Sources */,
+				AD4E6299226BF65A00656B87 /* ColorObservationBag.swift in Sources */,
+				AD4E62AA226BFDE700656B87 /* ColorType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4E627B226BF55900656B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4E6284226BF55A00656B87 /* ViewController.swift in Sources */,
+				AD4E6282226BF55A00656B87 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4E629A226BFD3F00656B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4E62AF226C082500656B87 /* ColorObservationTests.swift in Sources */,
+				AD4E62A1226BFD3F00656B87 /* ColorObservableTests.swift in Sources */,
+				AD4E62B5226C0E3700656B87 /* ColorObservationBagTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD4E6294226BF59300656B87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD4E626E226BED9600656B87 /* ColorSet-iOS */;
+			targetProxy = AD4E6293226BF59300656B87 /* PBXContainerItemProxy */;
+		};
+		AD4E62A5226BFD3F00656B87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD4E626E226BED9600656B87 /* ColorSet-iOS */;
+			targetProxy = AD4E62A4226BFD3F00656B87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD4E6285226BF55A00656B87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD4E6286226BF55A00656B87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD4E628A226BF55A00656B87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD4E628B226BF55A00656B87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD4E6268226BED6100656B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		AD4E6269226BED6100656B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		AD4E6276226BED9600656B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B712EC568656CC8B3007EE41 /* Pods-ColorSet-iOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "ColorSet-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.fromkk.ColorSet-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD4E6277226BED9600656B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1620A8A9FD4690E68216FAEB /* Pods-ColorSet-iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "ColorSet-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.fromkk.ColorSet-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD4E628F226BF55A00656B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A851565108005807B285E89C /* Pods-ColorSetSample-iOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "ColorSetSample-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.fromkk.ColorSetSample-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD4E6290226BF55A00656B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D329C54639E6D7B078B17CB /* Pods-ColorSetSample-iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "ColorSetSample-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.fromkk.ColorSetSample-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD4E62A7226BFD3F00656B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = ColorSet_iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.fromkk.ColorSet-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD4E62A8226BFD3F00656B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = ColorSet_iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.fromkk.ColorSet-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD4E6267226BED6100656B87 /* Build configuration list for PBXProject "ColorSet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4E6268226BED6100656B87 /* Debug */,
+				AD4E6269226BED6100656B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4E6275226BED9600656B87 /* Build configuration list for PBXNativeTarget "ColorSet-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4E6276226BED9600656B87 /* Debug */,
+				AD4E6277226BED9600656B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4E628E226BF55A00656B87 /* Build configuration list for PBXNativeTarget "ColorSetSample-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4E628F226BF55A00656B87 /* Debug */,
+				AD4E6290226BF55A00656B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4E62A6226BFD3F00656B87 /* Build configuration list for PBXNativeTarget "ColorSet_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4E62A7226BFD3F00656B87 /* Debug */,
+				AD4E62A8226BFD3F00656B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD4E6264226BED6100656B87 /* Project object */;
+}
