@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1DD5C252ABD2E355897452D0 /* Pods_ColorSet_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED459CC395114FC4D1E9EAA /* Pods_ColorSet_iOS.framework */; };
-		531B1AF6329C5579DDAAA264 /* Pods_ColorSetSample_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FED6EFAB41F0FCD4828FD9C /* Pods_ColorSetSample_iOS.framework */; };
 		AD4E6274226BED9600656B87 /* ColorSet_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4E6272226BED9600656B87 /* ColorSet_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD4E627A226BEDCE00656B87 /* ColorObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4E6279226BEDCE00656B87 /* ColorObservable.swift */; };
 		AD4E6282226BF55A00656B87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4E6281226BF55A00656B87 /* AppDelegate.swift */; };
@@ -62,11 +60,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1620A8A9FD4690E68216FAEB /* Pods-ColorSet-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorSet-iOS.release.xcconfig"; path = "Target Support Files/Pods-ColorSet-iOS/Pods-ColorSet-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		4FED6EFAB41F0FCD4828FD9C /* Pods_ColorSetSample_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorSetSample_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5ED459CC395114FC4D1E9EAA /* Pods_ColorSet_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorSet_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D329C54639E6D7B078B17CB /* Pods-ColorSetSample-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorSetSample-iOS.release.xcconfig"; path = "Target Support Files/Pods-ColorSetSample-iOS/Pods-ColorSetSample-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		A851565108005807B285E89C /* Pods-ColorSetSample-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorSetSample-iOS.debug.xcconfig"; path = "Target Support Files/Pods-ColorSetSample-iOS/Pods-ColorSetSample-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		AD4E626F226BED9600656B87 /* ColorSet_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorSet_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4E6272226BED9600656B87 /* ColorSet_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorSet_iOS.h; sourceTree = "<group>"; };
 		AD4E6273226BED9600656B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -90,7 +83,6 @@
 		AD4E62B2226C0A2F00656B87 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
 		AD4E62B4226C0E3700656B87 /* ColorObservationBagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorObservationBagTests.swift; sourceTree = "<group>"; };
 		AD4E62B6226C102600656B87 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B712EC568656CC8B3007EE41 /* Pods-ColorSet-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorSet-iOS.debug.xcconfig"; path = "Target Support Files/Pods-ColorSet-iOS/Pods-ColorSet-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +93,6 @@
 				AD4E62B3226C0A2F00656B87 /* CoreImage.framework in Frameworks */,
 				AD4E62B1226C09EF00656B87 /* CoreGraphics.framework in Frameworks */,
 				AD4E62AD226C059400656B87 /* UIKit.framework in Frameworks */,
-				1DD5C252ABD2E355897452D0 /* Pods_ColorSet_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +101,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD4E6291226BF59300656B87 /* ColorSet_iOS.framework in Frameworks */,
-				531B1AF6329C5579DDAAA264 /* Pods_ColorSetSample_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,10 +118,6 @@
 		76978CC3B2DBF47797E7D4CA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B712EC568656CC8B3007EE41 /* Pods-ColorSet-iOS.debug.xcconfig */,
-				1620A8A9FD4690E68216FAEB /* Pods-ColorSet-iOS.release.xcconfig */,
-				A851565108005807B285E89C /* Pods-ColorSetSample-iOS.debug.xcconfig */,
-				7D329C54639E6D7B078B17CB /* Pods-ColorSetSample-iOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -210,8 +196,6 @@
 				AD4E62B2226C0A2F00656B87 /* CoreImage.framework */,
 				AD4E62B0226C09EF00656B87 /* CoreGraphics.framework */,
 				AD4E62AC226C059400656B87 /* UIKit.framework */,
-				5ED459CC395114FC4D1E9EAA /* Pods_ColorSet_iOS.framework */,
-				4FED6EFAB41F0FCD4828FD9C /* Pods_ColorSetSample_iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -234,7 +218,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD4E6275226BED9600656B87 /* Build configuration list for PBXNativeTarget "ColorSet-iOS" */;
 			buildPhases = (
-				20D0491D976BD7EC3622C925 /* [CP] Check Pods Manifest.lock */,
 				AD4E626A226BED9600656B87 /* Headers */,
 				AD4E626B226BED9600656B87 /* Sources */,
 				AD4E626C226BED9600656B87 /* Frameworks */,
@@ -253,9 +236,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD4E628E226BF55A00656B87 /* Build configuration list for PBXNativeTarget "ColorSetSample-iOS" */;
 			buildPhases = (
-				6D52F3311F9A417DEB4D392F /* [CP] Check Pods Manifest.lock */,
-				AD4E62B7226C542B00656B87 /* SwiftLint */,
-				AD4E62B8226C557900656B87 /* SwiftFormat */,
 				AD4E627B226BF55900656B87 /* Sources */,
 				AD4E627C226BF55900656B87 /* Frameworks */,
 				AD4E627D226BF55900656B87 /* Resources */,
@@ -356,89 +336,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		20D0491D976BD7EC3622C925 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ColorSet-iOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6D52F3311F9A417DEB4D392F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ColorSetSample-iOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AD4E62B7226C542B00656B87 /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\" \"autocorrect\"\n";
-		};
-		AD4E62B8226C557900656B87 /* SwiftFormat */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftFormat;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\" \"${SRCROOT}/Sources\"\n\"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\" \"${SRCROOT}/ColorSetSample-iOS\"\n\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AD4E626B226BED9600656B87 /* Sources */ = {
@@ -572,7 +469,6 @@
 		};
 		AD4E6276226BED9600656B87 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B712EC568656CC8B3007EE41 /* Pods-ColorSet-iOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -655,7 +551,6 @@
 		};
 		AD4E6277226BED9600656B87 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1620A8A9FD4690E68216FAEB /* Pods-ColorSet-iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -732,7 +627,6 @@
 		};
 		AD4E628F226BF55A00656B87 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A851565108005807B285E89C /* Pods-ColorSetSample-iOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -807,7 +701,6 @@
 		};
 		AD4E6290226BF55A00656B87 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D329C54639E6D7B078B17CB /* Pods-ColorSetSample-iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
