@@ -1,5 +1,9 @@
 #  ColorSet
 
+[![Build Status](https://app.bitrise.io/app/388601b81b3a10f8/status.svg?token=ugmzD4_59hVYM1q5VLNI6g&branch=master)](https://app.bitrise.io/app/388601b81b3a10f8)
+[![Swift 5.0](https://img.shields.io/badge/swift-5.0-red.svg?style=flat)](https://developer.apple.com/swift)
+[![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://opensource.org/licenses/MIT)
+
 ## Description
 
 Change theme color of your apps.
