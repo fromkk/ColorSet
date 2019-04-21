@@ -8,6 +8,8 @@
 
 Change theme color of your apps.
 
+![ColorSet](./Resources/colorset.gif)
+
 ## Usage
 
 ### Define your ColorSet
