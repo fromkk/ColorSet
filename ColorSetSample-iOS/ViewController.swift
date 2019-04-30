@@ -44,6 +44,9 @@ class ViewController: UIViewController {
 
         MyColorSet.backgroundColor.bind(to: view, keyPath: \.backgroundColor).append(to: observationBag)
         MyColorSet.textColor.bind(to: label, keyPath: \.textColor).append(to: observationBag)
+        MyColorSet.textColor.subscribe { [weak self] color in
+            self?.label.layer.borderColor = color.cgColor
+        }.append(to: observationBag)
     }
 
     @IBAction func darkmodeSwitchDidChanged(_ sender: UISwitch) {

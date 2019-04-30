@@ -10,6 +10,14 @@ Change theme color of your apps.
 
 ![ColorSet](./Resources/colorset.gif)
 
+## Installation
+
+### Carthage
+
+- Insert `github "fromkk/ColorSet"` to your Cartfile .
+- Run `carthage update`
+- Link your app with `ColorSet_iOS.framework` in Carthage/Build
+
 ## Usage
 
 ### Define your ColorSet
@@ -61,6 +69,9 @@ class ViewController: UIViewController {
 
         MyColorSet.backgroundColor.bind(to: view, keyPath: \.backgroundColor).append(to: observationBag)
         MyColorSet.textColor.bind(to: label, keyPath: \.textColor).append(to: observationBag)
+        MyColorSet.textColor.subscribe { [weak self] color in
+            self?.label.layer.borderColor = color.cgColor
+        }.append(to: observationBag)
     }
 
     @IBAction func darkmodeSwitchDidChanged(_ sender: UISwitch) {
