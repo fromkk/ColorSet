@@ -12,10 +12,5 @@ let package = Package(
             path: "Sources",
             exclude: []
         )
-    ],
-    .testTarget(
-        name: "ColorSet_iOSTests",
-        dependencies: ["ColorSet"],
-        path: "ColorSet_iOSTests"
-    )
+    ]
 )
